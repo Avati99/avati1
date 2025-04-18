@@ -22,7 +22,6 @@ def calculator():
             else:
                 print("Ошибка: неверная операция!")
                 continue
-            
             print(f"Результат: {result}")
         except ValueError:
             print("Ошибка: введите корректные числа!")
